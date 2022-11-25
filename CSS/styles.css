@@ -2,31 +2,78 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
-  --primary-white-color: #fffff;
+  --primary-white-color: #ffff;
 }
 
-
-body{
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+body {
+font-family: Roboto;
+background-color: white;
+color: var(--primary-text-color);
   }
 
+ul {
+list-style: none;
+}
 /* Навігація */
-.site-nav {}
+.site-nav .link:hover,
+.site-nav, link:focus {
+color: var(--title-text-color);
+}
 
-.accent {
+.accent:hover {
   color: var(--accent-color)
 }
 
+.tel-number{
+color: var(--primary-text-color)
+}
 /* Шапка */
-.hero {}
+.hero {
+background-color: #2F303A;
+color: var(--primary-white-color);
+}
 
+.hero-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+}
+.hero-button {
+color:white;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 
 /* <!--Особливості--> */
+.our-team{
+background-color: #F5F4FA;
+
+}
 .title {
 color: var(--title-text-color)
 }
+.section-title {
+color: var(--title-text-color)
+}
 
-
+.team-style {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 
 /* <!--Футер--> */
+footer {
+background-color:#2F303A;
+}
+.where {
+color: white;
+}
+.number {
+color:#FFFFFF99;
+}
+ .number:focus {
+ color: teal;
+ }
