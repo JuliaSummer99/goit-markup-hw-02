@@ -7,21 +7,21 @@
 
 /* Загальні оформлення */
 body {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-  
-background-color: white;
-color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  background-color: white;
+  color: var(--primary-text-color);
 }
 
-button {
-  font-family: inherit;
+/* button {
+
   cursor: pointer;
-  text-align: center;
-}
+
+} */
 
 ul {
   list-style: none;
@@ -33,14 +33,15 @@ ul {
 .logo-nav {
   letter-spacing: 0.03em;
   text-decoration: none;
-  font-family:'Raleway';
+  font-family: 'Raleway';
   color: var(--title-text-color);
   font-size: 26px;
   line-height: 1.9;
   font-weight: 700;
 }
-.site-nav .web-accent{
-color: var(--accent-color);
+
+.site-nav .web-accent {
+  color: var(--accent-color);
 }
 
 .site-nav .logo-nav:hover,
@@ -122,20 +123,20 @@ color: var(--accent-color);
 /* <!--Особливості--> */
 
 .feature-list .title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-title {
-color: var(--title-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .our-team {
@@ -143,11 +144,11 @@ text-align: center;
 }
 
 .our-team .title {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .team-style {
@@ -161,14 +162,14 @@ footer {
 }
 
 .logo-foot {
-text-decoration: none;
-font: 'Raleway';
-font-weight: 700;
-color:var(--primary-white-color)
+  text-decoration: none;
+  font: 'Raleway';
+  font-weight: 700;
+  color: var(--primary-white-color)
 }
 
 .logo-foot .web-accent {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .where {
@@ -199,7 +200,8 @@ color: var(--accent-color);
 }
 
 /* Точечні оформлення Портфоліо */
-.pagination>button {
+.pagination .filtr-butt {
+  cursor: pointer;
   color: var(--title-text-color);
   background-color: #F5F4FA;
   font-weight: 500;
@@ -213,18 +215,18 @@ color: var(--accent-color);
 }
 
 .portfolio .title {
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height:2;
-letter-spacing: 0.06em;
-color: var(--title-text-color)
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color)
 }
 
- .portfolio .description {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
-color:var(--primary-text-color)
- }
+.portfolio .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color)
+}
