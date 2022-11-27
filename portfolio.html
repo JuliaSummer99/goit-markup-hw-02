@@ -5,35 +5,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Студія </title>
+  <title>Портфоліо </title>
   <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
 <body>
   <header>
     <!--Навігація-->
-    <nav>
-      <a href=""> WebStudio </a>
+    <nav class="site-nav">
+      <a href="" class="logo-nav"> <span class="web-accent">Web</span>Studio </a>
       <ul>
-        <li> <a href="./index.html"> Студія </a> </li>
-        <li> <a href="./portfolio.html"> Портфоліо </a> </li>
-        <li> <a href=""> Контакти </a> </li>
+        <li> <a href="./index.html" class="link"> Студія </a> </li>    
+        <li> <a href="./portfolio.html" class="link"> Портфоліо </a> </li>
+        <li> <a href="" class="link"> Контакти </a> </li>
       </ul>
     </nav>
-    <ul>
-      <li> <a href=""> info@devstudio.com </a></li>
-      <li><a href=""> +38 096 111 11 11 </a> </li>
+    <ul class="contacts-list">
+      <li> <a href=""  class="mail-accent"> info@devstudio.com </a></li>
+      <li><a href="" class="tel-number"> +38 096 111 11 11 </a> </li>
     </ul>
   </header>
 
+
+
+
   <main>
     <!--Фільтр-->
-    <ul>
-      <li> <button type="button"> Усі </button> </li>
-      <li> <button type="button"> Веб-сайти </button> </li>
-      <li> <button type="button"> Додатки </button> </li>
-      <li> <button type="button"> Дизайн </button> </li>
-      <li> <button type="button"> Маркетинг </button> </li>
+    <ul class="pagination">
+      <li> <button type="button" class="filtr-butt"> Усі </button> </li>
+      <li> <button type="button" class="filtr-butt"> Веб-сайти </button> </li>
+      <li> <button type="button" class="filtr-butt"> Додатки </button> </li>
+      <li> <button type="button" class="filtr-butt"> Дизайн </button> </li>
+      <li> <button type="button" class="filtr-butt"> Маркетинг </button> </li>
     </ul>
 
 
@@ -41,96 +44,92 @@
     <h1 hidden>Прихований</h1>
     <h2 hidden> Прихований </h2>
 
-    <section>
-      <ul>
+   
+<section class="portfolio">
+
+ <ul>
         <li> <img src="./images/our-people1.jpg" alt="троє людей" width="370" height="294">
-          <h3> Технокряк </h3>
-          <p> Веб-сайт </p>
+          <h3 class="title"> Технокряк </h3>
+          <p class="description"> Веб-сайт </p>
         </li>
       </ul>
 
       <ul>
-        <li> <img src="./images/basketboall2.jpg" alt="баскетболісти" width="370" height="294">
-          <h3> Постер New Orlean vs Golden Star </h3>
-          <p> Дизайн </p>
+        <li > <img src="./images/basketboall2.jpg" alt="баскетболісти" width="370" height="294">
+          <h3 class="title"> Постер New Orlean vs Golden Star </h3>
+          <p class="description"> Дизайн </p>
         </li>
       </ul>
 
       <ul>
         <li> <img src="./images/seafood3.jpg" alt="шрифт" width="370" height="294">
-          <h3> Ресторан Seafood </h3>
-          <p> Додаток </p>
+          <h3 class="title"> Ресторан Seafood </h3>
+          <p class="description"> Додаток </p>
         </li>
       </ul>
-    </section>
-
     <!--Друга секція-->
-
     <ul>
       <li> <img src="./images/headphone1.jpg" alt="навушники" width="370" height="294">
-        <h3> Проєкт Prime </h3>
-        <p> Маркетинг</p>
+        <h3 class="title"> Проєкт Prime </h3>
+        <p class="description"> Маркетинг</p>
       </li>
     </ul>
 
     <ul>
       <li> <img src="./images/boxes2.jpg" alt="коробочки" width="370" height="294">
-        <h3> Проєкт Boxes </h3>
-        <p> Додаток </p>
+        <h3 class="title"> Проєкт Boxes </h3>
+        <p class="description"> Додаток </p>
       </li>
     </ul>
 
-    <section>
       <ul>
         <li> <img src="./images/monitor3.jpg" alt="монітор" width="370" height="294">
-          <h3>Inspiration has no Borders</h3>
-          <p> Веб-сайт </p>
+          <h3 class="title">Inspiration has no Borders</h3>
+          <p class="description"> Веб-сайт </p>
         </li>
       </ul>
-    </section>
-
     <!--Третя секція-->
-    <section>
       <ul>
         <li> <img src="./images/magazine1.jpg" alt="журнал" width="370" height="294">
-          <h3> Видання Limited Edition </h3>
-          <p> Дизайн </p>
+          <h3 class="title"> Видання Limited Edition </h3>
+          <p class="description"> Дизайн </p>
         </li>
       </ul>
 
       <ul>
         <li> <img src="./images/lab2.jpg" alt="текст" width="370" height="294">
-          <h3> Проєкт LAB </h3>
-          <p>Маркетинг </p>
+          <h3 class="title"> Проєкт LAB </h3>
+          <p class="description">Маркетинг </p>
         </li>
       </ul>
 
       <ul>
         <li> <img src="./images/writing3.jpg" alt="дурк на ноуті" width="370" height="294">
-          <h3>Growing Business </h3>
-          <p>Додаток </p>
+          <h3 class="title">Growing Business </h3>
+          <p class="description">Додаток </p>
         </li>
       </ul>
 
-    </section>
+
+</section>
 
   </main>
 
-  <!--Футер-->
+ <!--Футер-->
   <footer>
-    <a href=""> WebStudio </a>
-    <address>
+    <a href="" class="logo-foot"> <span class="web-accent">Web</span>Studio </a>
+    <address class="where">
       м. Київ, пр-т Лесі Українки, 26
     </address>
 
     <address>
       <ul>
-        <li> <a href="mailto:info@devstudio.com "> info@devstudio.com </a> </li>
-        <li> <a href="tel:+380961111111">+380961111111</a> </li>
+        <li> <a href="mailto:info@devstudio.com " class="mail"> info@devstudio.com </a> </li>
+        <li> <a href="tel:+380961111111" class="number">+380961111111</a> </li>
       </ul>
     </address>
   </footer>
-
+  
 </body>
 
 </html>
