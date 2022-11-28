@@ -119,8 +119,12 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.hero-button:focus{
+background-color:188CE8;
+}
+
 .hero-button:hover {
-background-color:2196F3;
+background-color: blue;
 }
 
 
