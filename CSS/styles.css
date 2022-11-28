@@ -44,11 +44,6 @@ ul {
   color: var(--accent-color);
 }
 
-.site-nav .logo-nav:hover,
-.site-nav .logo-nav:focus {
-  color: var(--accent-color)
-}
-
 .site-nav .link {
   text-decoration: none;
   color: var(--title-text-color);
@@ -124,7 +119,7 @@ background-color:188CE8;
 }
 
 .hero-button:hover {
-background-color: blue;
+background-color: #188ce8;
 }
 
 
