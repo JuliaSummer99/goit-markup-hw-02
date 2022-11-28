@@ -220,7 +220,7 @@ footer {
 
 .pagination .filtr-butt:hover,
 .pagination .filtr-butt:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio .title {
