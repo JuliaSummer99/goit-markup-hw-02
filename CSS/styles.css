@@ -204,6 +204,8 @@ footer {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .mail:hover,
@@ -215,6 +217,8 @@ footer {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .number:hover,
@@ -256,7 +260,7 @@ footer {
   font-weight: 400;
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height:1.8;
+  line-height: 1.8;
   letter-spacing: 0.03em;
-  text-align:center;
+  text-align: center;
 }
